@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+       
+</head>
+<body>
+    <!--Registro-->
+
+    <h1><P ALIGN=center> El Ojo Clinico</h1>
+        <hr/>
+        <br/>
+        <h2>Formulario de Registro</h2>
+        <br/>
+    <form method="post" action="#">
+        <br/>
+        <label for="nombre_completo">Nombre Completo*</label>
+        <input type="text" 
+        id="nombre_completo" 
+        placeholder="Nombre completo"
+        maxlength="15"required/>
+        
+
+        <br/>
+        <br/>
+        <br/>
+        <label for="telefono"> Tel</label>
+        <input
+            type="el"
+            name="telefono"
+            placeholder="11447788552"
+            id="telefono"
+        />
+        <br/>
+        <br/>
+        <br/>
+        <label>Mail</label>
+        <input type="email" placeholder="foo@example.com"/>
+        <br/>
+        <br/>
+        <br/>
+        <label for="nacionalidad">Nacionalidad*</label>
+        <select id="nacionalidad"name="nacionalidad">
+            <option selected disabled>Elegi tu pais</option>
+            <option value="arg">Argentina</option>
+            <option value="bra">Brasil</option>
+            <option value="uru">Uruguay</option>
+            </select>
+        <br/>
+        <br/>
+        <br/>
+        <label for="sexo">Sexo*</label>
+        <input type="radio" id="sexo" name="sexo"/>Hombre
+        <input type="radio" id="sexo" name="sexo"/>Mujer
+        <input type="radio" id="sexo" name="sexo"/>Personalizado
+        <br/>
+        <br/>
+        <br/>
+        <label for="fecha_nacimiento">Fecha de Nacimiento </label>
+        <input type="date"/>
+        <br/>
+        <br/>
+        <br/>
+        <label for="imagen">Ingresa tu foto de perfil</label>
+        <input type="file"/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <button>Registrate</button></a>
+        <br/>
+        <br/>
+        <br/>
+        <button type="reset">Limpiar</button>
+    </form>
+
+
+
+    
+</body>
+</html>
